@@ -1,0 +1,176 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: azure;
+}
+
+body.dark-theme {
+    background-color: black;
+}
+
+.container {
+    text-align: center;
+    background-color: rgb(0, 0, 0, 0.93);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.93);
+    padding: 20px;
+    width: 300px;
+}
+
+/* Bordure pour le mode sombre */
+body.dark-theme .container {
+    border: 1px solid azure; /* Bordure fine et de couleur azure */
+    box-shadow: 0 4px 8px azure;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: azure;
+}
+
+.image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+.link1 {
+    display: block;
+    margin: 10px 0;
+    padding: 12px;
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(0, 0, 0, 0.93);
+    background-color: azure;
+    border-radius: 5px;
+}
+
+.link1:hover {
+    background-color: rgba(255, 255, 255, 0.712);
+    color: azure;
+    box-shadow: 0 4px 8px azure;
+}
+
+.link1 img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-bottom: 3px;
+    vertical-align: middle;
+}
+
+.link2 {
+    display: block;
+    margin: 10px 0;
+    padding: 12px;
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(0, 0, 0, 0.93);
+    background-color: azure;
+    border-radius: 5px;
+}
+
+.link2:hover {
+    background-color: rgba(255, 255, 255, 0.712);
+    color: azure;
+    box-shadow: 0 4px 8px azure;
+}
+
+.link2 img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-bottom: 3px;
+    vertical-align: middle;
+}
+
+.link3 {
+    display: block;
+    margin: 10px 0;
+    padding: 12px;
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(0, 0, 0, 0.93);
+    background-color: azure;
+    border-radius: 5px;
+}
+
+.link3:hover {
+    background-color: rgba(255, 255, 255, 0.712);
+    color: azure;
+    box-shadow: 0 4px 8px azure;
+}
+
+.link3 img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-bottom: 3px;
+    vertical-align: middle;
+}
+
+.link4 {
+    display: block;
+    margin: 10px 0;
+    padding: 12px;
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(0, 0, 0, 0.93);
+    background-color: azure;
+    border-radius: 5px;
+}
+
+.link4:hover {
+    background-color: rgba(255, 255, 255, 0.712);
+    color: azure;
+    box-shadow: 0 4px 8px azure;
+}
+
+.link4 img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-bottom: 3px;
+    vertical-align: middle;
+}
+
+.theme-toggle-container {
+    text-align: center;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.theme-toggle-button {
+    background-color: azure;
+    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.93);
+    color:rgb(0, 0, 0, 0.93) ;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: block; /* Assure que le bouton occupe toute la largeur disponible */
+    margin: 20px auto; /* Centre horizontalement et ajoute un espace au-dessus */
+}
+
+.theme-toggle-button:hover {
+    background-color:rgba(255, 255, 255, 0.712);
+    color: azure;
+}
+
+#real-time-clock {
+    font-size: 18px;
+    color: azure; /* Assurez-vous qu'il soit visible en mode sombre */
+    margin-bottom: 10px;
+}
+
